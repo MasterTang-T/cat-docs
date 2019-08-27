@@ -1,5 +1,5 @@
 module.exports = {
-    base: '/cat-docs/',
+    base: '/',
     dest: 'dist',
     title: '养猫攻略',
     description: '你叫我一声大哥，我把你养成胖子',
