@@ -8,34 +8,54 @@ module.exports = {
         docsDir: 'docs',
         nav: [],
         sidebar: [{
-                title: "生活篇",
+                title: "接猫篇",
                 collapsable: false,
                 children: [
-                    ['lifeChapter/', '猫的生活'],
+                    ['toHomeChapter/', '接它回家']
                 ]
             },
             {
-                title: "食物篇",
+                title: "装备篇",
                 collapsable: false,
                 children: [
-                    'foodChapter/mainFood',
-                    'foodChapter/otherFood',
+                    ['equipmentChapter/', '全副武装']
                 ]
             },
             {
-                title: "玩具篇",
+                title: "喂养篇",
                 collapsable: false,
                 children: [
-                    "toyChapter/toyChapter"
+                    ['foodChapter/', '喂它长大']
                 ]
             },
             {
-                title: "疫苗篇",
+                title: "清洁篇",
                 collapsable: false,
                 children: [
-                    "vaccineChapter/vaccineChapter"
+                    ['cleanChapter/', '干干静静']
                 ]
-            }
+            },
+            {
+                title: "绝育篇",
+                collapsable: false,
+                children: [
+                    ['sterilizationChapter/', '为爱放弃']
+                ]
+            },
+            {
+                title: "寄养篇",
+                collapsable: false,
+                children: [
+                    ['stayChapter/', '暂时放养']
+                ]
+            },
+            {
+                title: "医疗篇",
+                collapsable: false,
+                children: [
+                    ['careChapter/', '妙手回春']
+                ]
+            },
         ]
     }
 }
